@@ -44,6 +44,8 @@
 - 想搞清"PHM 到底用在哪些行业、怎么落地" → [PHM 真实应用场景](14_applications.md)
 - 要面试/讲解 → [5 分钟讲法提纲](15_interview_guide.md) · [术语表](16_glossary.md) · [健康指标 HI](17_health_indicator.md)
 - 想搞清"一台机器训的模型到另一台为啥掉、怎么救" → [迁移学习/域适应](18_transfer_learning.md)
+- 想看真实工业案例 + 扩宽资产类别（往复/结构/电气/电子）→ [工业案例集](19_industrial_cases.md)
+- 想补底层理论（DGA比值法/随机RUL/FMEA/振动分区/功能安全/数字孪生）→ [理论扩宽](20_theory_broaden.md)
 - 想看完整模块清单 → [模块文档总表](catalog.md)
 - 想直接跑案例 → [场景 A 轴承](scenario_a_bearing.md)
 - 关心"怎么落地" → [工程实战：数据闭环与异常检测](07_engineering.md)

@@ -40,6 +40,8 @@
 | 16 | [PHM 术语表（速查）](./16_glossary.md) | - | 总览/故障/信号/数据/标准/数据集 六类缩写速查(含文档锚点) |
 | 17 | [健康指标 HI 构建（特征→RUL 的桥）](./17_health_indicator.md) | - | HI定义/四种融合路子(物理PCA-AE距离专家)/好HI三标准(单调可预测可解释)/串起02→04 |
 | 18 | [迁移学习/域适应（跨机掉点之谜）](./18_transfer_learning.md) | `src/module_03_diagnosis/demo_domain_shift.py` | 现象(RF0.977→0.673跨工况暴跌)、根因(分布偏移:工况/设备个体FRF/协议骗自己)、demo(绝对RMS掉到50%归一化救回99.9%)、解法谱系(数据增广/归一化+物理频率特征/MMD-DANN/微调+主动学习/AE天然跨机/组合拳)、评测必须跨工况 |
+| 19 | [工业案例集（真实落地+资产扩类）](./19_industrial_cases.md) | `src/module_industry/demo_cases.py` | 资产扩类(往复/结构/电气/电子)、8真实案例(风电齿轮箱/轨交热轴/石化MCSA/航空EGT/变压器DGA/半导体FDC/采矿车队/数据中心)、图(退化趋势+成本对比)、共性表+面试用法 |
+| 20 | [理论扩宽（DGA/随机RUL/FMEA/功能安全/孪生）](./20_theory_broaden.md) | - | DGA三比值法、随机退化(Wiener/Gamma/IG)、异常检测谱系、FMEA/故障树/RCA、ISO10816振动分区(A/B/C/D)、油液/红外/声发射/电涡流/超声传感、IEC61508/SIL、数字孪生 |
 | 06 | [场景 A 轴承](./scenario_a_bearing.md) · [B 发动机](./scenario_b_engine.md) · [C 电池](./scenario_c_battery.md) · [D 齿轮箱](./scenario_d_gearbox.md) · [E RUL](./scenario_e_phm2025.md) | `src/scenarios/` | 5 个完整项目（每场景独立文档） |
 
 ## 4 个端到端场景
