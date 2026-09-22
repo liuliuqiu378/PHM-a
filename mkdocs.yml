@@ -1,0 +1,71 @@
+site_name: PHM 教程：从传感器到部署的工程实战
+site_description: 一套由内到外、由理论到实际的预测性维护（PHM）教程——算法、部署、数据闭环、异常检测全覆盖
+site_author: PHM Tutorial
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - content.code.copy
+    - content.code.annotate
+    - toc.integrate
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+
+docs_dir: docs
+
+nav:
+  - 总览: index.md
+  - 模块文档总表: catalog.md
+  - 模块:
+      - PHM 全景: 00_big_picture.md
+      - 硬件层：传感器与信号链: 01_hardware.md
+      - 数据层：信号处理与特征: 02_signal.md
+      - 信号处理进阶：阶次/谱峭度/调制: 12_signal_advanced.md
+      - 信号处理与物理进阶二：TSA/倒频谱/转子/疲劳/HHT: 13_signal_advanced2.md
+      - 算法层：故障诊断: 03_diagnosis.md
+      - 算法层：RUL 预测: 04_prognostics.md
+      - 系统层：部署与工程化: 05_system.md
+      - 工程实战：数据闭环与异常检测: 07_engineering.md
+  - 总览与选型:
+      - 方法总图谱（选型指南）: 08_method_landscape.md
+      - 故障机理 → 传感器映射: 09_fault_sensor_map.md
+      - 故障机理深入（真入门）: 10_fault_mechanism.md
+      - 行业专业知识（真壁垒）: 11_industry.md
+      - PHM 真实应用场景（行业落地）: 14_applications.md
+      - 迁移学习/域适应（跨机掉点之谜）: 18_transfer_learning.md
+  - 面试与速查:
+      - 面试/讲解 5 分钟讲法提纲: 15_interview_guide.md
+      - PHM 术语表（速查）: 16_glossary.md
+      - 健康指标 HI 构建（特征→RUL 的桥）: 17_health_indicator.md
+  - 端到端场景:
+      - A · 电机轴承故障诊断: scenario_a_bearing.md
+      - B · 发动机扭矩裕度: scenario_b_engine.md
+      - C · 锂电池 SOH/RUL: scenario_c_battery.md
+      - D · 齿轮箱健康评估: scenario_d_gearbox.md
+      - E · PHM2025 发动机 RUL: scenario_e_phm2025.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
