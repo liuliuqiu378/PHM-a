@@ -46,6 +46,7 @@ nav:
       - 迁移学习/域适应（跨机掉点之谜）: 18_transfer_learning.md
       - 工业案例集（真实落地+资产扩类）: 19_industrial_cases.md
       - 理论扩宽（DGA/随机RUL/FMEA/功能安全/孪生）: 20_theory_broaden.md
+      - 海缆与铺缆船 PHM（水下与海上资产）: 21_subsea_cable.md
   - 面试与速查:
       - 面试/讲解 5 分钟讲法提纲: 15_interview_guide.md
       - PHM 术语表（速查）: 16_glossary.md

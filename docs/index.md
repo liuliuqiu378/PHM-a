@@ -46,6 +46,7 @@
 - 想搞清"一台机器训的模型到另一台为啥掉、怎么救" → [迁移学习/域适应](18_transfer_learning.md)
 - 想看真实工业案例 + 扩宽资产类别（往复/结构/电气/电子）→ [工业案例集](19_industrial_cases.md)
 - 想补底层理论（DGA比值法/随机RUL/FMEA/振动分区/功能安全/数字孪生）→ [理论扩宽](20_theory_broaden.md)
+- 想看海缆/铺缆船 PHM（水下与海上资产，DAS/OTDR/DP/船级社）→ [海缆与铺缆船 PHM](21_subsea_cable.md)
 - 想看完整模块清单 → [模块文档总表](catalog.md)
 - 想直接跑案例 → [场景 A 轴承](scenario_a_bearing.md)
 - 关心"怎么落地" → [工程实战：数据闭环与异常检测](07_engineering.md)
